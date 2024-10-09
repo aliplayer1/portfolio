@@ -1,11 +1,12 @@
 import { BlogPosts } from 'app/components/posts'
+import { ProjectsPosts } from './components/projects'
 
 export default function Page() {
   return (
     <main className="p-6 max-w-4xl mx-auto">
       {/* Header section */}
       <header className="mb-8">
-        <h1 className="text-2xl font-bold tracking-tighter text-gray-900 dark:text-gray-100">
+        <h1 className="text-2xl font-bold mb-2 text-gray-900 dark:text-gray-100">
           Ali Asadpoor
         </h1>
         <p className="mt-4 text-base leading-relaxed text-gray-700 dark:text-gray-300">
@@ -19,7 +20,13 @@ export default function Page() {
 
       {/* Blog Posts section */}
       <section className="my-8">
-        <h2 className="text-xl font-semibold mb-6 text-gray-800 dark:text-gray-200">
+        <h2 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200">
+          My Projects
+        </h2>
+        <ProjectsPosts />
+      </section>
+      <section className="my-8">
+        <h2 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200">
           Latest Blog Posts
         </h2>
         <BlogPosts />
