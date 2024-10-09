@@ -8,7 +8,7 @@ export default function Page() {
         <h1 className="text-2xl font-bold tracking-tighter text-gray-900 dark:text-gray-100">
           Ali Asadpoor
         </h1>
-        <p className="mt-4 text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+        <p className="mt-4 text-base leading-relaxed text-gray-700 dark:text-gray-300">
           {`I'm a third-year student at Toronto Metropolitan University (Formerly Ryerson), majoring in Computer Science
           with a minor in Economics. My range of interests are quite diverse, but I specialize in data science, quantitative analysis,
           finance, and research. I'm passionate about analyzing complex systems, and model their behaviour
