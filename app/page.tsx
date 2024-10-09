@@ -5,7 +5,7 @@ export default function Page() {
     <main className="p-6 max-w-4xl mx-auto">
       {/* Header section */}
       <header className="mb-8">
-        <h1 className="text-xl font-bold tracking-tighter text-gray-900 dark:text-gray-100">
+        <h1 className="text-2xl font-bold tracking-tighter text-gray-900 dark:text-gray-100">
           Ali Asadpoor
         </h1>
         <p className="mt-4 text-lg leading-relaxed text-gray-700 dark:text-gray-300">
