@@ -1,6 +1,6 @@
-# Portfolio Blog Starter
+# Ali Asadpoor's Portfolio - Deployed using Vercel
 
-This is a porfolio site template complete with a blog. Includes:
+This my portfolio deployed using vercel. Includes:
 
 - MDX and Markdown support
 - Optimized for SEO (sitemap, robots, JSON-LD schema)
@@ -11,21 +11,11 @@ This is a porfolio site template complete with a blog. Includes:
 - Vercel Speed Insights / Web Analytics
 - Geist font
 
-## Demo
+## Demo from Vercel
 
-https://portfolio-blog-starter.vercel.app
+Demo [](https://portfolio-blog-starter.vercel.app)
 
-## How to Use
-
-You can choose from one of the following two methods to use this repository:
-
-### One-Click Deploy
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/blog&project-name=blog&repository-name=blog)
-
-### Clone and Deploy
+## Clone and Deploy for Yourself
 
 Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
 
