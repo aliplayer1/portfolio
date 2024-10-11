@@ -1,5 +1,6 @@
 import { BlogPosts } from 'app/components/posts'
 import { ProjectsPosts } from 'app/components/projects'
+import { EducationPosts } from 'app/components/educationPosts'
 
 export default function Page() {
   return (
@@ -17,25 +18,34 @@ export default function Page() {
           `}
         </p>
       </header>
-      {/* Education Posts section */}
+      {/* Education & Certifications section */}
       <section className="my-8">
-        <h2 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200">
-          Education & Certifications
-        </h2>
-        <BlogPosts />
+        <div className="flex items-center">
+          <span className="text-2xl font-bold text-gray-800 dark:text-gray-200 -ml-14 mb-3 leading-none">{'>'}</span>
+          <h2 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200 ml-4">
+            Education & Certifications
+          </h2>
+        </div>
+        <EducationPosts />
       </section>
-      {/* Projcts Posts section */}
+      {/* Projects Posts section */}
       <section className="my-8">
-        <h2 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200">
-          My Projects
-        </h2>
+        <div className="flex items-center">
+        <span className="text-2xl font-bold text-gray-800 dark:text-gray-200 -ml-14 mb-3 leading-none">{'>'}</span>
+        <h2 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200 ml-4">
+            My Projects
+          </h2>
+        </div>
         <ProjectsPosts />
       </section>
-      {/* Projcts Posts section */}
+      {/* Blog Posts section */}
       <section className="my-8">
-        <h2 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200">
-          Latest Blog Posts
-        </h2>
+        <div className="flex items-center">
+        <span className="text-2xl font-bold text-gray-800 dark:text-gray-200 -ml-14 mb-3 leading-none">{'>'}</span>
+        <h2 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200 ml-4">
+            Latest Blog Posts
+          </h2>
+        </div>
         <BlogPosts />
       </section>
     </main>

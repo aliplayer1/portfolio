@@ -54,16 +54,16 @@ export function Navbar() {
             {/* Contact me button */}
             <button
               onClick={handleOpenModal}
-              className="transition-all bg-gray-800 text-white font-medium hover:bg-gray-700 dark:bg-gray-700 dark:hover:bg-gray-500 py-1.5 px-3 ml-4 rounded-md shadow"
+              className="transition-all bg-gray-800 text-white text-sm hover:bg-gray-700 dark:bg-gray-700 dark:hover:bg-gray-500 py-1 px-2 ml-4 rounded-md shadow"
             >
               Contact me
             </button>
 
             {/* Download Resume button */}
             <a
-              href="/files/resume.pdf"
+              href="/home/alia/projects/portfolio/files/resume.pdf"
               download
-              className="transition-all bg-gray-800 text-white font-medium hover:bg-gray-700 dark:bg-gray-700 dark:hover:bg-gray-500 py-1.5 px-3 ml-4 rounded-md shadow"
+              className="transition-all bg-gray-800 text-white text-sm hover:bg-gray-700 dark:bg-gray-700 dark:hover:bg-gray-500 py-2.5 px-2 ml-4 rounded-md shadow"
             >
               Resume
             </a>
