@@ -49,12 +49,12 @@ export function Navbar() {
             })}
 
             {/* Vertical Divider */}
-            <div className="border-l border-gray-300 dark:border-gray-600 h-6 my-auto mx-4"></div>
+            <div className="border-l border-gray-300 dark:border-gray-600 h-8 my-auto mx-4"></div>
 
             {/* Contact me button */}
             <button
               onClick={handleOpenModal}
-              className="transition-all bg-gray-800 text-white font-medium hover:bg-gray-700 dark:bg-gray-600 dark:hover:bg-gray-500 py-1.5 px-3 ml-4 rounded-md shadow"
+              className="transition-all bg-gray-800 text-white font-medium hover:bg-gray-700 dark:bg-gray-700 dark:hover:bg-gray-500 py-1.5 px-3 ml-4 rounded-md shadow"
             >
               Contact me
             </button>
@@ -63,7 +63,7 @@ export function Navbar() {
             <a
               href="/home/alia/projects/portfolio/files/resume.pdf"
               download
-              className="transition-all bg-gray-800 text-white font-medium hover:bg-gray-700 dark:bg-gray-600 dark:hover:bg-gray-500 py-1.5 px-3 ml-4 rounded-md shadow"
+              className="transition-all bg-gray-800 text-white font-medium hover:bg-gray-700 dark:bg-gray-700 dark:hover:bg-gray-500 py-1.5 px-3 ml-4 rounded-md shadow"
             >
               Resume
             </a>
