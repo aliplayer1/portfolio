@@ -7,7 +7,7 @@ type ModalProps = {
 
 export default function Modal({ onClose }: ModalProps) {
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-center z-50">
+    <div className="fixed inset-0 bg-opacity-30 backdrop-blur-sm flex justify-center items-center z-50">
       <div className="bg-white dark:bg-neutral-800 p-6 rounded-lg shadow-lg w-full max-w-sm text-center relative">
         <span
           className="text-2xl font-bold cursor-pointer text-neutral-800 dark:text-neutral-200 absolute top-2 right-3"
