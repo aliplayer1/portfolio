@@ -4,7 +4,10 @@ export const educationData = [
         institution: 'Toronto Metropolitan University (Formerly Ryerson)',
         degree: <li><p>BSc in Computer Science, Minor in Economics</p></li>,
         duration: 'January 2023 - Present',
-        details: ['- Majoring in Computer Science with a minor in Economics.'],
+        details: [
+            '- Majoring in Computer Science with a minor in Economics.',
+            "- Made it to Dean's List for 2023-2024 school year with a GPA of 3.89/4.3"
+        ],
     },
     {
         category: 'certification',
