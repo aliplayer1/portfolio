@@ -1,5 +1,5 @@
 import { BlogPosts } from 'app/components/posts'
-import { ProjectsPosts } from './components/projects'
+import { ProjectsPosts } from 'app/components/projects'
 
 export default function Page() {
   return (
@@ -17,14 +17,21 @@ export default function Page() {
           `}
         </p>
       </header>
-
-      {/* Blog Posts section */}
+      {/* Education Posts section */}
+      <section className="my-8">
+        <h2 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200">
+          Education & Certifications
+        </h2>
+        <BlogPosts />
+      </section>
+      {/* Projcts Posts section */}
       <section className="my-8">
         <h2 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200">
           My Projects
         </h2>
         <ProjectsPosts />
       </section>
+      {/* Projcts Posts section */}
       <section className="my-8">
         <h2 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200">
           Latest Blog Posts
