@@ -61,7 +61,7 @@ export function Navbar() {
 
             {/* Download Resume button */}
             <a
-              href="/home/alia/projects/portfolio/files/resume.pdf"
+              href="https://github.com/aliplayer1/portfolio/blob/main/files/resume.pdf"
               download
               className="transition-all bg-gray-800 text-white font-medium hover:bg-gray-700 dark:bg-gray-700 dark:hover:bg-gray-500 py-1.5 px-3 ml-4 rounded-md shadow"
             >
