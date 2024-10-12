@@ -28,7 +28,7 @@ export function Navbar() {
   };
 
   return (
-    <aside className="-ml-[8px] mb-16 tracking-tight">
+    <aside className="mx-auto ml-auto mb-16 tracking-tight">
       <div className="lg:sticky lg:top-20">
         <nav
           className="flex flex-row items-start relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
@@ -61,7 +61,7 @@ export function Navbar() {
 
             {/* Download Resume button */}
             <a
-              href="/home/alia/projects/portfolio/files/resume.pdf"
+              href="/files/resume.pdf"
               download
               className="transition-all bg-gray-800 text-white text-sm hover:bg-gray-700 dark:bg-gray-700 dark:hover:bg-gray-500 py-2.5 px-2 ml-4 rounded-md shadow"
             >

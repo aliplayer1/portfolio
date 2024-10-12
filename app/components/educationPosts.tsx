@@ -19,7 +19,7 @@ export function EducationPosts() {
             ))}
           </ul>
           {/* Add the horizontal line manually after the education entry */}
-          {index === 0 && <hr className="my-6 w-4/5 border-gray-300 dark:border-gray-600" />}
+          {index === 0 && <hr className="my-6 w-4/5 mx-auto border-gray-300 dark:border-gray-600" />}
         </div>
       ))}
     </div>

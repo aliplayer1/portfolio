@@ -1,7 +1,106 @@
 ---
-title: 'Project 1'
-publishedAt: '2024-10-09'
-summary: 'To Be Added'
+title: 'Stock Analysis and Portfolio Optimization Tool'
+publishedAt: '2024-08-09'
+summary: 'This project applies machine learning to financial data for stock market analysis and portfolio optimization.'
+image: "/public/images/stock-analysis.png"
+techs: "Python, Flask, NumPy, Pandas, Pytorch, Scikit-learn, HTML5, CSS3, JavaScript, React"
+---
+# **Stock Analysis & Price Prediction Web Application**
+
+## **Overview**
+
+This project is a **web-based platform** tailored for **Quantitative Trading**, utilizing **machine learning** and **clustering algorithms** to provide insights into stock price predictions, financial metrics, and statistical analysis for publicly traded stocks. The primary goal is to equip traders with an intuitive toolkit for analyzing, predicting, and exploring stock price movements, optimized for applying quantitative strategies.
+
 ---
 
-asdasdadsasdads
+## **Technologies and Their Usage**
+
+### **1. Flask (Backend Framework)**
+The backend is powered by **Flask**, a lightweight and flexible Python web framework that handles routing, requests, and serves as the backbone for rendering the web application.
+
+- **Why Flask?** Its simplicity allows for rapid prototyping and scaling the application without unnecessary complexity.
+- **Usage**: Flask is responsible for managing the web server, routing, and API endpoints that serve the stock data, predictions, and clustering results to the frontend.
+- **Interesting Note**: Flask was chosen for its lightweight nature and modularity, making it a perfect fit for a data-driven, dynamic web application.
+
+### **2. Scikit-learn (Machine Learning Library)**
+For stock price prediction and clustering, **Scikit-learn** is the main library used.
+
+- **Decision Tree Classifier**: Historical stock data is processed using **Decision Tree Classifiers** to predict future stock price movements.
+    - **How it’s used**: The model is trained on historical price data to classify future price directions (e.g., up or down), making it a core feature for traders seeking predictive insights.
+    - **Outcome**: Provides an accessible entry point for users to forecast stock trends based on available historical data.
+    
+- **K-Means Clustering**: Unsupervised clustering algorithm to detect patterns in stock prices, helping to uncover trends and group stocks based on similar performance.
+    - **Usage**: The model segments stocks into clusters, helping traders to visually identify potential correlations and trends among different stocks.
+    - **Observation**: Clustering proved particularly useful in highlighting stocks with similar behaviors in volatile markets.
+
+### **3. Matplotlib (Data Visualization)**
+For visualizing stock data and clustering results, **Matplotlib** was integrated to generate clear, interactive charts.
+
+- **Usage**: Matplotlib is responsible for rendering stock price history, prediction outcomes, and clusters. These dynamic charts allow users to explore stock data interactively.
+- **Why Matplotlib?** Its flexibility and deep integration with Python make it ideal for visualizing complex datasets like stock movements.
+- **Achievements**: The visualizations enable traders to better comprehend large datasets and extract insights at a glance, improving decision-making efficiency.
+
+### **4. Pandas (Data Manipulation)**
+**Pandas** is the cornerstone for managing and processing the financial data used throughout the app.
+
+- **Usage**: It processes large datasets of stock prices and financial metrics like **Market Cap**, **P/E Ratios**, and **Enterprise Value**. It also performs calculations for descriptive statistics such as **mean**, **standard deviation**, and **variance**.
+- **Achievements**: Efficient data handling through Pandas allows the application to perform near real-time data analysis, enabling traders to evaluate financial metrics and statistics with minimal delays.
+
+### **5. React (Frontend)**
+The frontend is built using **React**, ensuring a modern, fast, and responsive user interface.
+
+- **Why React?** Its component-based architecture allows for efficient UI development and reusability, crucial for rendering dynamic content like stock data and interactive charts.
+- **Usage**: React handles all user interactions, ensuring smooth navigation between different views like stock price predictions, clustering charts, and financial metrics displays.
+- **Observations**: The integration of React helped in building a responsive, fast-loading application that provides a seamless user experience, especially for complex data visualization.
+<br />
+---
+
+## **Planned Features and Enhancements**
+
+1. **Sentiment Analysis Integration**
+   - **Plan**: To incorporate sentiment analysis from financial news or social media to provide deeper insight into stock price movements.
+   - **Goal**: This will give traders additional predictive power by combining quantitative and sentiment-based approaches.
+
+2. **Multi-Stock Comparison**
+   - **Plan**: Add the ability to compare multiple stocks on the same chart to evaluate correlations and trends between different stocks over the same period.
+   - **Goal**: This will enhance traders' ability to assess portfolio performance more comprehensively.
+
+3. **Advanced Machine Learning Models**
+   - **Plan**: Implement more sophisticated models such as **Random Forest**, **LSTM (Long Short-Term Memory)**, and **SVM (Support Vector Machines)** to improve prediction accuracy.
+   - **Goal**: Enhance prediction robustness, especially for highly volatile markets or stocks with irregular data patterns.
+
+4. **Backtesting Module**
+   - **Plan**: Allow users to test different trading strategies using historical stock data to evaluate their performance.
+   - **Goal**: Traders will be able to fine-tune their quantitative strategies before deploying them in real markets, reducing risk.
+
+5. **User Authentication and Portfolios**
+   - **Plan**: Enable users to create personal accounts where they can save and track their favorite stocks.
+   - **Goal**: This will allow users to build and manage custom portfolios directly within the platform.
+<br />
+---
+
+## **Interesting Observations and Achievements**
+
+- **Data Challenges**: One of the key challenges encountered was managing the massive amount of historical stock data while maintaining fast prediction times. Leveraging **Pandas** for preprocessing and **Scikit-learn** for real-time predictions allowed the system to handle large datasets without noticeable lag.
+- **Visualization Impact**: The **K-Means Clustering** results brought unexpected insights, revealing trends in stocks that behaved similarly during periods of high market volatility. This clustering helped identify which stocks tend to react to the same market pressures.
+- **User Feedback**: Early feedback from users highlighted the importance of incorporating more complex machine learning models to improve prediction accuracy, which is part of the planned features roadmap.
+<br />
+---
+
+## **Conclusion**
+
+By leveraging key technologies such as **Flask**, **Scikit-learn**, **React**, **Matplotlib**, and **Pandas**, this project provides a robust, data-driven platform for stock analysis and prediction. Future developments aim to incorporate sentiment analysis, advanced machine learning models, and portfolio management to further empower traders.
+
+---
+
+## **Contact Information**
+
+For any questions or feedback, feel free to reach out:
+
+- **Email**: [ali.asadpoor@torontomu.ca](mailto:ali.asadpoor@torontomu.ca)
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/aliasadpoor/)
+- **GitHub**: [GitHub Repository](https://github.com/aliplayer1/stock-analysis-portfolio-optimization)
+<br />
+---
+
+**Crafted with ❤️ for Quantitative Traders and Financial Analysts.**

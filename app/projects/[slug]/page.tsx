@@ -66,7 +66,7 @@ export default function Projects({ params }) {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
-            '@type': 'ProjectsPosting',
+            '@type': 'CreativeWork', // Update type if necessary
             headline: post.metadata.title,
             datePublished: post.metadata.publishedAt,
             dateModified: post.metadata.publishedAt,
@@ -77,7 +77,7 @@ export default function Projects({ params }) {
             url: `${baseUrl}/projects/${post.slug}`,
             author: {
               '@type': 'Person',
-              name: "Ali Asadpoor's Portfolio",
+              name: "Ali Asadpoor",
             },
           }),
         }}
@@ -90,6 +90,15 @@ export default function Projects({ params }) {
           {formatDate(post.metadata.publishedAt)}
         </p>
       </div>
+
+      {/* New section to display the key technologies */}
+      <div className="mb-4">
+        <h2 className="text-lg font-semibold">Key Technologies:</h2>
+        <p className="text-sm text-blue-600 dark:text-blue-300">
+          {post.metadata.techs}
+        </p>
+      </div>
+
       <article className="prose">
         <CustomMDX source={post.content} />
       </article>
