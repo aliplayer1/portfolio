@@ -1,0 +1,110 @@
+---
+title: Expense Tracker Application
+publishedAt: 2024-09-11
+summary: 'An application designed for managing personal finances.'
+techs: Java, Spring Boot, Spring Data JPA, Thymeleaf, Bootstrap 4.5, H2 Database, HTML5, CSS3
+---
+
+## **Expense Tracker Application**
+
+### **Overview**
+
+The **Expense Tracker** is a **Spring Boot** application designed for managing personal finances. It provides users with a streamlined interface to **add, edit, delete, and search expenses**, alongside visualizing expenses through detailed statistics. Built with robust Java-based backend and a responsive frontend, this application offers intuitive tools to manage day-to-day expenses efficiently.
+
+---
+
+### **Technologies and Their Usage**
+
+#### **1. Spring Boot (Backend Framework)**
+**Spring Boot** powers the backend, providing a flexible, scalable, and easy-to-configure framework for building REST APIs and rendering server-side views using **Thymeleaf**.
+
+- **Why Spring Boot?** Spring Boot’s simplicity allows for rapid application development while incorporating powerful features like dependency injection, security, and persistence.
+- **Usage**: The application’s business logic is managed by Spring Boot, handling CRUD operations, routing, and connecting the application to the database through **Spring Data JPA**.
+- **Interesting Note**: Spring Boot’s integration with **Thymeleaf** allowed seamless rendering of dynamic pages, providing a responsive and interactive experience for users.
+
+#### **2. Spring Data JPA (Data Management)**
+The application uses **Spring Data JPA** to manage the interaction with the database.
+
+- **Usage**: All database operations, such as adding, editing, and deleting expenses, are handled by Spring Data JPA. The framework abstracts away most of the boilerplate code, allowing for easier database manipulation.
+- **Outcome**: The integration allows the app to efficiently query the database and fetch data for paginated views and statistical calculations.
+
+#### **3. Thymeleaf (Server-Side Templating)**
+**Thymeleaf** is used to generate the dynamic HTML content that powers the application’s UI.
+
+- **Usage**: Thymeleaf renders HTML templates for displaying the **expense list**, **add/edit forms**, and **expense statistics**. It is responsible for delivering user-friendly and interactive pages.
+- **Why Thymeleaf?** Its seamless integration with Spring Boot made it an ideal choice for server-side rendering, enabling rapid and flexible UI development.
+- **Achievements**: The form-based pages provided an intuitive way for users to add and manage expenses, while the paginated view allows smooth navigation through extensive records.
+
+#### **4. Bootstrap 4.5 (Frontend UI Framework)**
+For styling and responsive design, **Bootstrap 4.5** is integrated into the front end.
+
+- **Usage**: Bootstrap ensures that the user interface is responsive, modern, and easy to navigate. It styles the **expense list**, **forms**, and **statistics pages**.
+- **Why Bootstrap?** It offers a rich collection of pre-built components that improve development speed while ensuring cross-browser compatibility.
+- **Achievements**: The Bootstrap-powered UI provides a professional look and feel, allowing users to manage their expenses efficiently on both desktop and mobile devices.
+
+#### **5. H2 Database (In-Memory Database)**
+An **H2 Database** is used for data storage and retrieval, allowing for quick access and testing without external database dependencies.
+
+- **Usage**: The in-memory H2 database stores all expense records. It supports CRUD operations and the necessary queries to calculate statistics such as **category-wise** and **monthly breakdowns**.
+- **Why H2?** Its lightweight, in-memory nature simplifies testing and reduces setup complexity, making it an ideal choice for development environments.
+- **Outcome**: The app’s expense data is stored efficiently in the H2 database and accessed with near-instant performance.
+<br />
+---
+
+### **Core Features**
+
+1. **Expense Management**
+   - Add, edit, and delete expenses, specifying the **description**, **amount**, **category**, and **date** of each transaction.
+   
+2. **Search and Pagination**
+   - Search for specific expenses by their description, and view all expenses in a **paginated** format, ensuring smooth navigation through large records.
+   
+3. **Expense Statistics**
+   - View statistics such as **total expenses**, **category-wise breakdown**, and **monthly expenses** to get a deeper insight into personal finances.
+   
+4. **Intuitive UI**
+   - Responsive and user-friendly interfaces allow easy interaction on both mobile and desktop devices, powered by **Thymeleaf** templates and **Bootstrap** for styling.
+<br />
+---
+
+### **Planned Enhancements**
+
+1. **User Authentication**
+   - **Plan**: Add a user authentication system to allow users to create accounts and manage their personal expenses securely.
+   - **Goal**: Each user will have access to their own expense data, adding privacy and personalization.
+
+2. **Database Integration**
+   - **Plan**: Integrate with external databases like **MySQL** or **PostgreSQL** to persist expense data even after server restarts.
+   - **Goal**: Transition from an in-memory database to a persistent one, enabling long-term data storage and retrieval.
+
+3. **Advanced Search Filters**
+   - **Plan**: Enhance the search functionality to filter expenses based on **date ranges**, **amounts**, or **categories**.
+   - **Goal**: Improve the user’s ability to track and analyze expenses with more flexible search options.
+
+4. **Graphs and Charts**
+   - **Plan**: Add visualizations such as pie charts and line graphs to display expense distribution over time or across categories.
+   - **Goal**: Provide users with more insightful, visually-driven data to track their spending habits.
+<br />
+---
+
+### **Interesting Observations and Achievements**
+
+- **Pagination**: Handling large datasets in a paginated format ensured the app's scalability and smooth user experience, even with thousands of expense entries.
+- **Statistics Generation**: The category-wise and monthly breakdown statistics allowed users to get quick insights into their spending patterns, facilitating better financial decision-making.
+<br />
+---
+
+### **Conclusion**
+
+The **Expense Tracker** application provides a robust platform for managing personal expenses, powered by **Spring Boot**, **Thymeleaf**, **Spring Data JPA**, and a responsive **Bootstrap** frontend. With upcoming features such as user authentication and persistent databases, the app aims to offer even more personalized and secure expense management options for users.
+
+---
+
+### **Contact Information**
+
+For any questions or feedback, feel free to reach out:
+
+- **Email**: [ali.asadpoor@torontomu.ca](mailto:ali.asadpoor@torontomu.ca)
+- **GitHub**: [GitHub Repository](https://github.com/aliplayer1/expense-tracker)
+
+**Crafted with ❤️
